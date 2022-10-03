@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="img/Logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Coin Count</title>
+</head>
+<!-- style="position: -webkit-sticky; position: sticky; top: 0" -->
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-center pt-4 pb-4">
+        <div class="col-xl-4 col-12 text-xl-start text-center pb-xl-0 pb-4">
+          <a class="naming" href="#">
+            <img class="naming-cc img-fluid" src="img/Naming.svg" alt="Count Coin">
+          </a>
+        </div>
+        <div class="col-xl-4 col-12 text-center pb-xl-0 pb-4">
+          <a class="logo" href="#">
+            <img class="logo-cc img-fluid" src="img/Logo.svg" alt="CC">
+          </a>
+        </div>
+        <div class="col-xl-4 col-12 text-xl-end text-center pb-xl-0 pb-1">
+          <a class="btn btn-profile"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+            <label class=" form-check-label text-center font4 px-1">UserName@yandex.ru</label>
+            <img class="btn avatar-profile img-btn-profile img-fluid" src="img/indexLog/ProfileImg.svg" alt="Профиль">
+          </a>
+          <!-- <a class="btn btn-profile"  data-bs-toggle="modal" data-bs-target="#profileModal">
+            <label class=" form-check-label text-center font4 px-1" for="btn-profile">UserName@yandex.ru</label>
+            <img class="btn avatar-profile img-btn-profile img-fluid" src="img/indexLog/ProfileImg.svg" alt="Профиль">
+          </a> -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- <div class="col-12">
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="#">
+  <img class="naming img-fluid" src="img/Naming.svg" alt="Count Coin">
+</a>
+<a class="navbar-logo mx-auto" href="#">
+<img class="naming img-fluid" src="img/Logo.svg" alt="CC">
+</a>
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Link</a>
+</li>
+</ul>
+</div>
+</nav>
+</div> -->
+
+<section id="navbar" class="navigation sticky-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 ">
+        <div class="row">
+          <div class="col-xl-3 col-0">
+          </div>
+          <div class="col-xl-6 col-12">
+            <nav id="navbar-example2" class="nav-custom navbar nav nav-pills px-1 font1">
+              <a class="nav-link-white nav-link" href="#main">Главная</a>
+              <a class="nav-link-white nav-link" href="#about">О нас</a>
+              <a class="nav-link-white nav-link" href="#function1">Функции</a>
+              <a class="nav-link-white nav-link" href="#advantages">Преимущества</a>
+              <a class="nav-link-white nav-link" href="#creator">Создатель</a>
+            </nav>
+          </div>
+          <div class="col-xl-3 col-0">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="main" class="main pt-5 pb-5 ">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-xl-7 col-sm-12 text-center mb-5">
+        <h1 class="mb-5">Сервис анализа и оптимизации инвестиционного портфеля</h1>
+        <a class="btn-main btn btn-lg font2" data-bs-toggle="modal" data-bs-target="#registrationModal">Начать пользоваться</a>
+      </div>
+      <div class="col-xl-5 col-sm-12 text-center text-sm-center">
+        <img class="main-logo mx-auto img-fluid" src="img/Logo-main.svg" alt="CC">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="about">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-xl-5 col-sm-12 text-xl-start text-center pt-5 pb-5">
+        <img class="about-img img-fluid" src="img/image-about.jpg" alt="Use service">
+      </div>
+      <div class="col-xl-7 col-sm-12 text-xl-end text-center mb-5">
+        <h1 class="mb-5">Для чего предназначен сервис?</h1>
+        <p>Учет инвестиций портфеля ценных бумаг, учет акций, облигаций, валюты и прочего, отслеживание доходности, составление отчетов.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="function1" class="hidden-class">
+  <div class="container">
+    <div class="row">
+      <div class="col-12"><p> </p></div>
+    </div>
+  </div>
+</section>
+<section class="function1 mt-5 mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-7 col-sm-12 mb-5">
+        <h1 class="func1-title mb-xl-4 mb-5 text-xl-start text-center">Функции сервиса</h1>
+        <ul class="func1-text">
+          <li>Личный кабинет.</li>
+          <li>Открытая регистрация для всех пользователей.</li>
+          <li>Возможность просмотра каталога акций, облигаций, валют и прочего.</li>
+          <li>Возможность просмотра графиков изменения цен выбранных ценных бумаг, валют и т.д.</li>
+        </ul>
+      </div>
+      <div class="col-xl-5 col-sm-12 text-xl-end text-center">
+        <img class="func1-img img-fluid" src="img/image-func1.jpg" alt="Money">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="function2" class="function2">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-5">
+        <h1 class="text-center mb-5">Функции сервиса</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-5 col-sm-12">
+        <ul class="func2-text1">
+          <li>Создание нескольких инвестиционных портфелей.</li>
+          <li>Возможность получения оповещений в личном кабинете о наступлении событий.</li>
+        </ul>
+      </div>
+      <div class="col-xl-2"></div>
+      <div class="col-xl-5 col-sm-12 mb-5">
+        <ul class="func2-text2">
+          <li>Просмотр отчетов по портфелям.</li>
+          <li>Добавление комментариев к выбранным активам.</li>
+          <li>Добавление активов в избранное.</li>
+          <li>Возможность просмотра прогнозируемых выплат.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="function3" class="function3 mt-5 mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-5 text-xl-end text-center">
+        <h1 class="func3-title">Функции сервиса</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-7 col-sm-12 mb-5">
+        <ul class="func3-text">
+          <li>Просмотр календаря выплат дивидендов, купонов и прочего.</li>
+          <li>Сортировка списка активов портфеля по различным параметрам.</li>
+          <li>Возможность составления общего отчета для всех портфелей.</li>
+        </ul>
+      </div>
+      <div class="col-xl-5 col-sm-12 text-xl-end text-center">
+        <img class="func3-img img-fluid" src="img/image-func3.jpg" alt="Money">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="advantages" class="advantages">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-xl-7 col-sm-12 text-xl-start text-center">
+        <h1 class="adv-title mb-xl-4 mb-5 mt-xl-0 mt-5">Преимущества</h1>
+        <p class="adv-text">Сервис учитывает реалии российского рынка и его особенности, обладает современным интерфейсом и позвояляет вести сразу несколько портфелей одновременно!</p>
+      </div>
+      <div class="col-xl-5 col-sm-12 text-xl-end text-center mb-xl-5 mt-xl-5 mb-3 mt-3">
+        <img class="adv-img img-fluid" src="img/image-adv.svg" alt="Advantages">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="creator" class="creator mt-5 mb-5">
+  <div class="container">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-5 col-sm-12 text-xl-start text-center pt-xl-5 pb-xl-5S pt-3 pb-3">
+          <img class="creator-img img-fluid" src="img/Foto.jpg" alt="Пахомов Сергей">
+        </div>
+        <div class="col-xl-7 col-sm-12 text-xl-end text-center mb-xl-5 mt-xl-0 mb-3 mt-3">
+          <h1 class="mb-5">Создатель</h1>
+          <p>Сервис разработан студентом-разработчиком Воронежского Государственного Технического университета Пахомовым Сергеем.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="registration" class="registration">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-xl-7 col-sm-12 text-xl-start text-center mb-5 mt-xl-5 mt-3">
+        <h1 class="mb-5">Присоединяйтесь сейчас и начинайте учитывать свои инвестиции!</h1>
+        <form>
+          <div class="mb-3 text-xl-start text-center">
+            <!-- <label for="exampleInputEmail1" class="form-label">Электронная почта</label> -->
+            <input type="email" class="form-control text-field__input" id="InputEmail1" aria-describedby="emailHelp" placeholder="Электронная почта">
+          </div>
+          <div class="mb-5">
+            <!-- <label for="exampleInputPassword1" class="form-label">Пароль</label> -->
+            <input type="password" class="form-control text-field__input" id="InputPassword1" placeholder="Пароль">
+          </div>
+          <!-- <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Запомнить меня</label>
+        </div> -->
+        <div class="registration-btn  mb-xl-5 mb-3">
+          <a class="btn-reg btn font3 " href="#">Начать пользоваться</a>
+        </div>
+      </form>
+    </div>
+    <!-- <div class="col-xl-1"></div> -->
+    <div class="col-xl-5 col-sm-12 text-xl-end text-center mb-xl-0 mt-xl-0 mb-3 mt-3">
+      <img class="reg-img img-fluid" src="img/image-join-us.jpg" alt="Registation">
+    </div>
+  </div>
+</div>
+</section>
+<footer id="footer" class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-xl-end text-center mt-5 mb-3 mb-xl-0">
+        <div class="row">
+          <div class="col-0 col-xl-10"></div>
+          <div class="col-12 col-xl-2">
+            <div class="row">
+              <div class="col-xl-4 col-0">
+              </div>
+              <div class="col-xl-4 col-6 text-end">
+                <a class="tg" href="#">
+                  <img class="img-tg img-fluid" src="img/Telegram.svg" alt="tg">
+                </a>
+              </div>
+              <div class="col-xl-4 col-6 text-start">
+                <a class="vk" href="#">
+                  <img class="img-vk img-fluid" src="img/vk.svg" alt="vk">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center font1 mb-xl-5 mb-3">Copyright © 2022 CountCoin</div>
+    </div>
+  </div>
+</footer>
+
+<!-- Modal registration -->
+<div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-registration-dialog">
+    <div class="modal-content modal-registration-content">
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-10"></div>
+            <div class="col-2 text-end">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-7 col-sm-12 text-center mb-xl-3 mb-3 mt-xl-5 mt-3">
+              <h1 class="mb-5">Присоединяйтесь сейчас и начинайте учитывать свои инвестиции!</h1>
+              <form>
+                <div class="mb-3 text-center">
+                  <!-- <label for="exampleInputEmail1" class="form-label">Электронная почта</label> -->
+                  <input type="email" class="form-control text-field__input" id="InputEmail1" aria-describedby="emailHelp" placeholder="Электронная почта">
+                </div>
+                <div class="mb-5 text-center">
+                  <!-- <label for="exampleInputPassword1" class="form-label">Пароль</label> -->
+                  <input type="password" class="form-control text-field__input" id="InputPassword1" placeholder="Пароль">
+                </div>
+                <!-- <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Запомнить меня</label>
+              </div> -->
+              <div class="registration-btn mb-xl-3 mb-3 mb-3">
+                <a class="btn-reg btn font3 " href="#">Начать пользоваться</a>
+              </div>
+            </form>
+          </div>
+          <!-- <div class="col-xl-1"></div> -->
+          <div class="col-xl-5 col-12 text-center mb-xl-0 mt-xl-0 mb-3 mt-3 d-none d-xl-block">
+            <img class="reg-img img-fluid" src="img/image-join-us.jpg" alt="Registation">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Modal profile -->
+<div class="modal" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true" data-bs-backdrop="false">
+  <div class="modal-dialog modal-profile-dialog">
+    <div class="modal-content modal-profile-content">
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-10"></div>
+            <div class="col-2 text-end">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 text-center mb-xl-3 mb-3 mt-xl-5 mt-3">
+              <h1 class="mb-5">UserName@yandex.ru</h1>
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                  Текущий элемент ссылка
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">Второй элемент ссылка</a>
+                <a href="#" class="list-group-item list-group-item-action">Третий элемент ссылка</a>
+                <a href="#" class="list-group-item list-group-item-action">Четвертый элемент ссылка</a>
+                <a class="list-group-item list-group-item-action disabled">Отключенный элемент ссылка</a>
+              </div>
+              <form>
+                <div class="registration-btn mb-xl-3 mb-3 mb-3">
+                  <a class="btn-reg btn font3 " href="#">Начать пользоваться</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Offcanvas profile -->
+<div class="offcanvas offcanvas-end offcanvas-profile" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header offcanvas-header-profile text-end">
+    <button type="button" class="btn-close text-end" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p class="offcanvas-title offcanvas-title-profile text-center mb-3" id="offcanvasScrollingLabel">UserName@yandex.ru</p>
+    <div class="list-group">
+      <a href="service.html" class="list-group-item list-group-item-action list-profile-custom">Управление портфелем</a>
+      <a href="#" class="list-group-item list-group-item-action list-profile-custom">Каталог бумаг</a>
+      <a href="#" class="list-group-item list-group-item-action list-profile-custom">Настройка</a>
+      <a href="index.html" class="list-group-item list-group-item-action list-profile-custom">Выход</a>
+    </div>
+  </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
